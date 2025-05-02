@@ -1,0 +1,15 @@
+venv/
+
+# Ignore environment files globally and in the app folder
+.env
+app/.env
+# Ignore Python cache files
+app/__pycache__/
+/__pycache__/
+
+# Ignore log files
+lightrag_demo.log
+
+/.vscode/
+/app.log
+
