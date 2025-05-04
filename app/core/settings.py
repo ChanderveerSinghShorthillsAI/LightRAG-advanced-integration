@@ -32,7 +32,7 @@ class Settings(BaseSettings):
     # NEO4J
     neo4j_uri: str = "bolt://localhost:7687"
     neo4j_username: str = "neo4j"
-    neo4j_password: str = "Chandu20@"
+    neo4j_password: str = ""
 
     # ASTRA DB
     astradb_application_token: str = "dummy"

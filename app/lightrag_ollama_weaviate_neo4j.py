@@ -129,8 +129,8 @@ async def initialize_rag():
                     max_token_size=8192,
                     func=embedding_func,
                 ),
-                "WEAVIATE_URL": "https://8b03ytqqre7ziuzeqatha.c0.asia-southeast1.gcp.weaviate.cloud",
-                "WEAVIATE_API_KEY": "KtsoVLh3l4ZNjPzfXFcbaTyE0Yp2DBtw6zAg",
+                "WEAVIATE_URL": "",
+                "WEAVIATE_API_KEY": "",
                 "EMBEDDING_DIMENSIONS": 768,
                 "global_config": {  # Pass global_config here
                     "type": "unhashed",

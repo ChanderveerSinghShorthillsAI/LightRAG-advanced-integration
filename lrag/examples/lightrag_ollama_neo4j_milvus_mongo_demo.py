@@ -24,7 +24,7 @@ BATCH_SIZE_NODES = 500
 BATCH_SIZE_EDGES = 100
 os.environ["NEO4J_URI"] = "bolt://localhost:7687"
 os.environ["NEO4J_USERNAME"] = "neo4j"
-os.environ["NEO4J_PASSWORD"] = "Chandu20@"
+os.environ["NEO4J_PASSWORD"] = ""
 
 # milvus
 os.environ["MILVUS_URI"] = "http://localhost:19530"
